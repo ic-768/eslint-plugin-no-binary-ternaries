@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-binary-ternary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "node enforce-no-binary-ternary.test.js"
