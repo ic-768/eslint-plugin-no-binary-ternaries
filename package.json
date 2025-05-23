@@ -1,15 +1,23 @@
 {
-  "name": "eslint-ternary-rule",
+  "name": "eslint-no-binary-ternary",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "node enforce-no-binary-ternary.test.js"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "ternary"
+  ],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Favor `a || b` over `a ? a : b`",
   "devDependencies": {
     "eslint": "^9.27.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=9.0.0"
   }
 }
