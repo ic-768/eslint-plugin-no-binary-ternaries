@@ -16,6 +16,10 @@ Install:
 Import the plugin in your ESLint config:
 
 ```js
+import noBinaryTernary from "eslint-plugin-no-binary-ternary";
+
+...
+
     plugins: {
       "no-binary-ternary": noBinaryTernary,
     },
