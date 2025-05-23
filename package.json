@@ -1,0 +1,15 @@
+{
+  "name": "eslint-ternary-rule",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node enforce-no-binary-ternary.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^9.27.0"
+  }
+}
