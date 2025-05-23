@@ -1,6 +1,6 @@
 "use strict";
 
-const pluginExample = require("./plugin-example");
+const pluginExample = require("./no-binary-ternary");
 
 module.exports = [
   {
@@ -9,9 +9,9 @@ module.exports = [
       sourceType: "commonjs",
       ecmaVersion: "latest",
     },
-    plugins: { example: pluginExample },
+    plugins: { "no-binary-ternary": pluginExample },
     rules: {
-      "example/enforce-no-binary-ternary": "error",
+      "no-binary-ternary/enforce-no-binary-ternary": "error",
     },
   },
 ];

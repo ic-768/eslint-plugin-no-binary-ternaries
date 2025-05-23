@@ -3,7 +3,6 @@ const ternaryRule = require("./enforce-no-binary-ternary");
 
 const ruleTester = new RuleTester();
 
-// Throws error if the tests in ruleTester.run() do not pass
 ruleTester.run("enforce-no-binary-ternary", ternaryRule, {
   valid: [
     {
