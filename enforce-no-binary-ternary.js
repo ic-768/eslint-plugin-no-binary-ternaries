@@ -25,9 +25,7 @@ module.exports = {
               alternate: sourceCode.getText(node.alternate),
             },
             fix(fixer) {
-              console.log("fixer", fixer);
               const replacement = `${testText} || ${sourceCode.getText(node.alternate)}`;
-              console.log(replacement);
               return fixer.replaceText(node, replacement);
             },
           });
