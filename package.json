@@ -1,5 +1,5 @@
 {
-  "name": "eslint-no-binary-ternary",
+  "name": "eslint-plugin-no-binary-ternary",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
