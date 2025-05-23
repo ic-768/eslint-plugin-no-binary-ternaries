@@ -1,6 +1,6 @@
 "use strict";
 
-const pluginExample = require("./no-binary-ternary");
+const plugin = require("./index");
 
 module.exports = [
   {
@@ -9,7 +9,7 @@ module.exports = [
       sourceType: "commonjs",
       ecmaVersion: "latest",
     },
-    plugins: { "no-binary-ternary": pluginExample },
+    plugins: { "no-binary-ternary": plugin },
     rules: {
       "no-binary-ternary/enforce-no-binary-ternary": "error",
     },
