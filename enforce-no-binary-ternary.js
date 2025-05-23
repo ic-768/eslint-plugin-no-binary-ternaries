@@ -57,7 +57,6 @@ module.exports = {
             alternate: alternateText,
           },
           fix(fixer) {
-            // Replace the whole ternary expression with a logical OR expression
             const replacement = `${safeTestText} || ${alternateText}`;
             return fixer.replaceText(node, replacement);
           },

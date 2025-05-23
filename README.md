@@ -27,3 +27,7 @@ import noBinaryTernary from "eslint-plugin-no-binary-ternary";
       "no-binary-ternary/enforce-no-binary-ternary": "error",
     },
 ```
+
+## Repository
+
+[eslint-plugin-no-binary-ternary on GitHub](https://github.com/ic-768/eslint-plugin-no-binary-ternary)
